@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Protfolio de VIOUGEA Melvin">
+    <!-- ========== css ========== -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <!-- ========== favicon ========== -->
+    <link rel="icon" sizes="16x16" href="favicon.ico">
+    <!-- ========== box icones ========== -->
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Portfolio Melvin</title>
+</head>
+
+<body>
+<!--========== header ==========-->
+<header class="l-header">
+    <nav class="nav bd-grille">
+        <div>
+            <a href="#" class="nav__logo">Melvin VIOUGEA</a>
+        </div>
+        <div class="nav__menu" id="nav-menu">
+            <ul class="nav__liste">
+                <li class="nav__item"><a href="#accueil" class="nav__link active">Accueil</a></li>
+                <li class="nav__item"><a href="#apropos" class="nav__link">À propos</a></li>
+                <li class="nav__item"><a href="#etudes" class="nav__link">Etudes</a></li>
+                <li class="nav__item"><a href="#competences" class="nav__link">Compétences</a></li>
+                <li class="nav__item"><a href="#stages" class="nav__link">Stages</a></li>
+                <li class="nav__item"><a href="#projets" class="nav__link">Projets</a></li>
+                <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+            </ul>
+        </div>
+        <div class="nav__toggle" id="nav-toggle">
+            <i class='bx bx-menu'></i>
+        </div>
+    </nav>
+</header>
+<main class="l-main">
+    <!--========== accueil ==========-->
+    <section class="accueil bd-grille" id="accueil">
+        <div class="accueil__data">
+            <h1 class="accueil__title">Bonjour,<br>Je suis <span class="accueil__title-color">Melvin</span><br> étudiant en dev'</h1>
+            <a href="#contact" class="bouton">Contact</a>
+        </div>
+        <div class="accueil__social">
+            <a href="https://www.linkedin.com/in/melvin-viougea/" class="accueil__social-icone"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://github.com/melvinvga" class="accueil__social-icone"><i class='bx bxl-github'></i></a>
+        </div>
+        <div class="accueil__img">
+            <svg class="accueil__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg">
+                <mask id="mask0">
+                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547
+                            130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                            97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                            0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                </mask>
+                <g mask="url(#mask0)">
+                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346
+                            165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                            129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                            -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                    <image width="170px" height="100%" x='12' y='10' href="assets/img/profil.webp" />
+                </g>
+            </svg>
+        </div>
+    </section>
+    <!--==========a propos==========-->
+    <section class="apropos section " id="apropos">
+        <h2 class="section-title">À propos</h2>
+
+        <div class="apropos__conteneur bd-grille">
+            <div class="apropos__img">
+                <img src="assets/img/about.webp" alt="melphoto">
+            </div>
+            <div>
+                <h2 class="apropos__subtitle">Je m'appelle Melvin</h2>
+                <p class="apropos__texte">J'ai 21 ans et je suis originaire de Bordeaux. À l'heure actuelle, j'habite à Gap, loin de ma famille et de mon entourage. J'y fais mes études, un BTS en informatique.</p>
+                <p class="apropos__texte">Je suis un passionné d'informatique depuis tout petit. Depuis que je fais de la programmation, je n'ai jamais eu l'idée de changer d'orientation, car celle-ci me passionne de jour en jour, à chaque nouvelle découverte.</p>
+                <button id="open" class="bouton bouton__cv">Consulter mon CV</button>
+                <a href="assets/pdf/Melvin_Viougea_CV.pdf" download="Melvin_Viougea_CV.pdf" class="bouton">Télécharger mon CV</a>
+            </div>
+        </div>
+    </section>
+    <!--========== etudes ==========-->
+    <section class="etudes section " id="etudes">
+        <h2 class="section-title">Mes études</h2>
+
+        <div class="etudes__conteneurnoflex bd-grille">
+            <div class="etudes__img">
+                <img src="assets/img/lycee.webp" alt="">
+            </div>
+            <div>
+                <h2 class="etudes__subtitle">Lycée dominique villars</h2>
+                <p class="etudes__texte">
+                    Le lycée Dominique Villars est situé au centre de Gap. Il s'agit d'un lycée généale et technologique acceuillant egallement des étudiant post-bac. Le lycée propose donc le Brevet de technicien supérieur - Services informatiques aux organisations.
+                </p>
+            </div>
+            <div>
+                <h2 class="etudes__subtitle">La BTS SIO en queslques mots</h2>
+                <p class="etudes__texte">Ce BTS est composé de 2 options. J'ai peronnellement prit l'option SLAM (développement). Voici les principales compétences aquises par ces options :</p>
+                <div class="etudes__conteneur bd-grille">
+                    <div class="etudes__data">
+                        <ul>
+                            <li>
+                                <p class="etudes__texte-title">Option SLAM (Developpeur) Solutions Logicielles et Applications Métier</p>
+                            </li>
+                            <li>
+                                <p class="etudes__texte">– Réaliser des logiciels, des sites web</p>
+                            </li>
+                            <li>
+                                <p class="etudes__texte">– Rédiger de la documentation liée à la solution applicative</p>
+                            </li>
+                            <li>
+                                <p class="etudes__texte">– Former des utilisateurs</p>
+                            </li>
+                            <li>
+                                <p class="etudes__texte">– Faire de la maintenance applicative</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="etudes__data">
+                        <ul>
+                            <li>
+                                <p class="etudes__texte-title">Option SISR (Réseau) Solutions d’Infrastructure et Systèmes et Réseaux</p>
+                            </li>
+                            <li>
+                                <p class="etudes__texte">– Installer, administrer et gérer la maintenance des équipements et des réseaux informatiques.</p>
+                            </li>
+                            <li>
+                                <p class="etudes__texte">– Intervenir au niveau de la configuration, le suivi et l’optimisation des serveurs</p>
+                            </li>
+                            <li>
+                                <p class="etudes__texte">– Intégrer et sécuriser des postes clients et des équipements d’interconnexion.</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <a download="" href="https://www.cned.fr/bts/bts-services-informatiques-aux-organisations-sio" class="bouton">+ d'info sur le BTS SIO</a>
+            </div>
+        </div>
+    </section>
+    <!--========== compétences ==========-->
+    <section class="competences section" id="competences">
+        <h2 class="section-title">Compétences</h2>
+
+        <div class="competences__conteneur bd-grille">
+            <div>
+                <h2 class="competences__subtitle">Compétences professionnelles</h2>
+                <p class="competences__texte">Mes études m'ont apprise de nombreuse compétences en informatique et principalement en programmation, j'ai pu apprendre la programmation objet en C++ sur QT. Pour le reste de la formation, il s'agissait principalement de front-end
+                    et back-end. La plupart des projets étaient reliés a des database approfondissant donc nos compétences en SQL. J'ai également appris la navigation sur Linux, car toute ma formation était basée dessus.</p>
+                <div class="competences__data">
+                    <div class="competences__noms">
+                        <i class='bx bxl-c-plus-plus competences__icone'></i>
+                        <span class="competences__nom">C++</span>
+                    </div>
+                    <div class="competences__bar competences__cpp">
+                    </div>
+                    <div>
+                        <span class="competences__pourcentage">75%</span>
+                    </div>
+                </div>
+                <div class="competences__data">
+                    <div class="competences__noms">
+                        <i class='bx bxl-html5 competences__icone'></i>
+                        <span class="competences__nom">HTML5</span>
+                    </div>
+                    <div class="competences__bar competences__html">
+                    </div>
+                    <div>
+                        <span class="competences__pourcentage">90%</span>
+                    </div>
+                </div>
+                <div class="competences__data">
+                    <div class="competences__noms">
+                        <i class='bx bxl-css3 competences__icone'></i>
+                        <span class="competences__nom">CSS3</span>
+                    </div>
+                    <div class="competences__bar competences__css">
+                    </div>
+                    <div>
+                        <span class="competences__pourcentage">70%</span>
+                    </div>
+                </div>
+                <div class="competences__data">
+                    <div class="competences__noms">
+                        <i class='bx bxl-javascript competences__icone'></i>
+                        <span class="competences__nom">JAVASCRIPT</span>
+                    </div>
+                    <div class="competences__bar competences__js">
+                    </div>
+                    <div>
+                        <span class="competences__pourcentage">55%</span>
+                    </div>
+                </div>
+                <div class="competences__data">
+                    <div class="competences__noms">
+                        <i class='bx bxl-php competences__icone'></i>
+                        <span class="competences__nom">PHP</span>
+                    </div>
+                    <div class="competences__bar competences__php">
+                    </div>
+                    <div>
+                        <span class="competences__pourcentage">60%</span>
+                    </div>
+                </div>
+                <div class="competences__data">
+                    <div class="competences__noms">
+                        <i class='bx bx-data competences__icone'></i>
+                        <span class="competences__nom">SQL</span>
+                    </div>
+                    <div class="competences__bar competences__sql">
+                    </div>
+                    <div>
+                        <span class="competences__pourcentage">65%</span>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <img src="assets/img/work.webp" alt="" class="competences__img">
+            </div>
+        </div>
+    </section>
+    <!--========== stages ==========-->
+    <section class="stages section " id="stages">
+        <h2 class="section-title">Stages</h2>
+
+        <div class="stages__conteneurnoflex bd-grille">
+            <div>
+                <h2 class="stages__subtitle">Stage de première année</h2>
+                <p class="stages__texte">Mon stage a été réalisé dans l'entreprise Computeris.</p>
+                <h4 class="stages__subtitle">Présentation de l'entreprise</h4>
+                <p class="stages__texte">L'entreprise est une start-up spécialisée dans la mise en relation d'experts dans le domaine de l’IT avec des clients notamment des entreprises nécessitant des techniciens qualifiés, sur tout le territoire français.</p>
+                <h4 class="stages__subtitle">Objectif du stage</h4>
+                <p class="stages__texte">Le but du stage était de développer un nouveau site web pour l'entreprise</p>
+                <h4 class="stages__subtitle">Rapport de stage</h4>
+                <div class="stages__conteneur bd-grille">
+                    <div class="stages__img">
+                        <a href="https://docs.google.com/document/d/1b0--_00GAYOC92ogoVO415LYfULECp3Vsu37PAwu7zE/edit?usp=sharing">
+                            <img src="assets/img/stage1.webp" alt="stage1">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h2 class="stages__title">Stage de deuxième année</h2>
+                <p class="stages__texte">Mon stage a été réalisé dans l'entreprise Solution909.</p>
+                <h4 class="stages__subtitle">Présentation de l'entreprise</h4>
+                <p class="stages__texte">Solutions 909 est une start-up spécialisée dans l’accompagnement des sociétés à la mise en conformité au RGPD avec une forte expertise dans la Santé.</p>
+                <h4 class="stages__subtitle">Objectif du stage</h4>
+                <p class="stages__texte">Le but du stage était de développer un site web pour l'entreprise, de corriger le site principal mis en production et de continuer un site actuel.</p>
+                <h4 class="stages__subtitle">Rapport de stage</h4>
+                <div class="stages__conteneur bd-grille">
+                    <div class="stages__img">
+                        <a href="https://docs.google.com/document/d/1xIQR0LPzdcqTgh62gAIZvq6S4ziWG2KsZagw20-jvWM/edit?usp=sharing">
+                            <img src="assets/img/stage2.webp" alt="stage2">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--========== projets ==========-->
+    <section class="projets section " id="projets">
+        <h2 class="section-title">Projets</h2>
+
+        <div class="projets__conteneurnoflex bd-grille">
+            <div>
+                <h2 class="projets__subtitle">Gros projets</h2>
+                <h4 class="projets__subtitle">New World</h4>
+                <div class="projets__conteneur bd-grille">
+                    <div class="projets__img">
+                        <a href="https://drive.google.com/drive/folders/1fjDZgWSPku9uLipe5YJSxUq-SIREZDKu?usp=sharing">
+                            <img src="assets/img/imgprojet/qtpdfnewworld.webp" alt="qtpdfnewworld">
+                        </a>
+                    </div>
+                    <div class="projets__img">
+                        <a href="https://drive.google.com/drive/folders/1YmHwxnUGwIBgrrCF7uXpm168ucQ7iQ1m?usp=sharing">
+                            <img src="assets/img/imgprojet/qtbackoffice.webp" alt="qtbackoffice">
+                        </a>
+                    </div>
+                    <div class="projets__img">
+                        <a href="https://drive.google.com/drive/folders/1j-2UHNUeZ0U5iywtRyWz56WIDJp-i6A0?usp=sharing">
+                            <img src="assets/img/imgprojet/webinscriprod.webp" alt="webinscriprod">
+                        </a>
+                    </div>
+                    <div class="projets__img">
+                        <a href="https://drive.google.com/drive/folders/1-UvQxwr72aK9-Q4phYK-hnBQv6bGJ4_C?usp=sharing">
+                            <img src="assets/img/imgprojet/sqlsave.webp" alt="sqlsave">
+                        </a>
+                    </div>
+                </div>
+                <h4 class="projets__subtitle">Atlantik</h4>
+                <div class="projets__conteneur bd-grille">
+                    <div class="projets__img">
+                        <a href="https://drive.google.com/drive/folders/1t280fmSkhsUe7LPrElEmGSwSaKUS6T9p?usp=sharing">
+                            <img src="assets/img/imgprojet/phpannexe1.webp" alt="phpannexe1">
+                        </a>
+                    </div>
+                    <div class="projets__img">
+                        <a href="https://drive.google.com/drive/folders/10ZSxWaSSvD1h_L2Y1qeGJg-SNFcK3BVQ?usp=sharing">
+                            <img src="assets/img/imgprojet/phpannexe2.webp" alt="phpannexe2">
+                        </a>
+                    </div>
+                    <div class="projets__img">
+                        <a href="https://drive.google.com/drive/folders/1981MThuejQeNMLIjHBTpxxSbwRdFxeCG?usp=sharing">
+                            <img src="assets/img/imgprojet/phpannexe3.webp" alt="phpannexe3">
+                        </a>
+                    </div>
+                    <div class="projets__img">
+                        <a href="https://drive.google.com/drive/folders/1MCoeihwUntPsBA4wvXwFudGeooQx5SsW?usp=sharing">
+                            <img src="assets/img/imgprojet/phpannexe4.webp" alt="phpannexe4">
+                        </a>
+                    </div>
+                    <div class="projets__img">
+                        <a href="https://drive.google.com/drive/folders/1EqYJiNnFXQS9GYvJBDTrxWS8dO2-TVHz?usp=sharing">
+                            <img src="assets/img/imgprojet/qtpdfatl.webp" alt="qtpdfatl">
+                        </a>
+                    </div>
+                    <div class="projets__img">
+                        <a href="https://drive.google.com/drive/folders/11ldo0nl8nW9GmJ8pXuNPubVrye6VSZsd?usp=sharing">
+                            <img src="assets/img/imgprojet/qtdiag.webp" alt="qtdiag">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h2 class="projets__subtitle">Travaux de groupe</h2>
+                <div class="projets__conteneur bd-grille">
+                    <div class="projets__img">
+                        <a href="https://docs.google.com/document/d/1n72fyFhuxfee_5j6W0vIbhOxPqSKYQQQ8Rky3kzi-AE/edit?usp=sharing">
+                            <img src="assets/img/imgprojet/webapplifrais.webp" alt="webapplifrais">
+                        </a>
+                    </div>
+                    <div class="projets__img">
+                        <a href="https://docs.google.com/document/d/1X6ygR001Ab3EzCzgiCuIMKTVkdfF-pVqzmFrgNKNzdI/edit?usp=sharing">
+                            <img src="assets/img/imgprojet/webhebergement.webp" alt="webhebergement">
+                        </a>
+                    </div>
+                    <div class="projets__img">
+                        <a href="https://docs.google.com/document/d/1GXHIkdi_NDPBZYkGz2pC93fZVzFjT26UEhOwNilLC0o/edit?usp=sharing">
+                            <img src="assets/img/imgprojet/webvote.webp" alt="webvote">
+                        </a>
+                    </div>
+                    <div class="projets__img">
+                        <a href="https://drive.google.com/drive/folders/13aaiU_X0Bjck-o66zchr4ePSlA1746r_?usp=sharing">
+                            <img src="assets/img/imgprojet/qtdevpcollab.webp" alt="qtdevpcollab">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h2 class="projets__subtitle">Développement web</h2>
+                <div class="projets__conteneur bd-grille">
+                    <div class="projets__img">
+                        <a href="https://drive.google.com/drive/folders/199FRUm2q4XHH2BeEy2lFIefaKLHp5qB6?usp=sharing">
+                            <img src="assets/img/imgprojet/webchuck1.webp" alt="webchuck1">
+                        </a>
+                    </div>
+                    <div class="projets__img">
+                        <a href="https://drive.google.com/drive/folders/1z5Rr4h3HvWvGw3OnCyxkQLhBj6ZCOAEZ?usp=sharing">
+                            <img src="assets/img/imgprojet/webchuck2.webp" alt="webchuck2">
+                        </a>
+                    </div>
+                    <div class="projets__img">
+                        <a href="https://drive.google.com/drive/folders/1PYls94T01bEbuggGos9MVd7QKjWeLqvd?usp=sharing">
+                            <img src="assets/img/imgprojet/webchuck3.webp" alt="webchuck3">
+                        </a>
+                    </div>
+                    <div class="projets__img">
+                        <a href="https://drive.google.com/drive/folders/10UeV2UQfGrqnIvS6hubyPShuiSeDkqFA?usp=sharing">
+                            <img src="assets/img/imgprojet/webchuck4.webp" alt="webchuck4">
+                        </a>
+                    </div>
+                    <div class="projets__img">
+                        <a href="https://drive.google.com/drive/folders/1XrJJM8LFqpLAhDBWth3n3eSjGKri-ebj?usp=sharing">
+                            <img src="assets/img/imgprojet/webchuck5.webp" alt="webchuck5">
+                        </a>
+                    </div>
+                    <div class="projets__img">
+                        <a href="https://drive.google.com/drive/folders/1Ky5U1ZlR5GiITcoVgrwm_YaQ85iuljcJ?usp=sharing">
+                            <img src="assets/img/imgprojet/webchuck6.webp" alt="webchuck6">
+                        </a>
+                    </div>
+                    <div class="projets__img">
+                        <a href="https://docs.google.com/document/d/1ExGYXkuyltLj2e0DTFxn4HC03qKBUXrkqfdRU8-IVGc/edit?usp=sharing">
+                            <img src="assets/img/imgprojet/jsintro.webp" alt="jsintro">
+                        </a>
+                    </div>
+                    <div class="projets__img">
+                        <a href="https://docs.google.com/document/d/1OFqxN5x2XqMwqmZthZGF25k78vvVAGU8n9kpt6hulpw/edit?usp=sharing">
+                            <img src="assets/img/imgprojet/jsperfec.webp" alt="jsperfec">
+                        </a>
+                    </div>
+                    <div class="projets__img">
+                        <a href="https://drive.google.com/drive/folders/1K5eo9p_c19o0Ss7SN9E_JM-AobbCragL?usp=sharing">
+                            <img src="assets/img/imgprojet/phpbase.webp" alt="phpbase">
+                        </a>
+                    </div>
+                    <div class="projets__img">
+                        <a href="https://drive.google.com/drive/folders/17bS76JZw1RCvt96TWTewxYsPtfKu_9KK?usp=sharing">
+                            <img src="assets/img/imgprojet/phpprogrammer.webp" alt="phpprogrammer">
+                        </a>
+                    </div>
+                    <div class="projets__img">
+                        <a href="https://drive.google.com/drive/folders/1OeTUsubSKP0bl0ULmHkXGrCDqjxKt7mD?usp=sharing">
+                            <img src="assets/img/imgprojet/phptransmission.webp" alt="phptransmission">
+                        </a>
+                    </div>
+                    <div class="projets__img">
+                        <a href="https://drive.google.com/drive/folders/1wEvitpGcMxixsJJob3-mQjh-8B2djjqo?usp=sharing">
+                            <img src="assets/img/imgprojet/phpimg.webp" alt="phpimg">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h2 class="projets__subtitle">C++ / QT</h2>
+                <div class="projets__conteneur bd-grille">
+                    <div class="projets__img">
+                        <a href="https://drive.google.com/drive/folders/1_9UYZOEY1-clkDIzwd2n321otWw_mNVa?usp=sharing">
+                            <img src="assets/img/imgprojet/cppshifumi.webp" alt="cppshifumi">
+                        </a>
+                    </div>
+                    <div class="projets__img">
+                        <a href="https://drive.google.com/drive/folders/1TMN3hOyWZPg9__Lu5Q6Uiergep3SwxGQ?usp=sharing">
+                            <img src="assets/img/imgprojet/cppbn.webp" alt="cppbn">
+                        </a>
+                    </div>
+                    <div class="projets__img">
+                        <a href="https://drive.google.com/drive/folders/1g0uNvMEwfcqHVf7LWgdQkgHkdLK8IyJB?usp=sharing">
+                            <img src="assets/img/imgprojet/cppfonction.webp" alt="cppfonction">
+                        </a>
+                    </div>
+                    <div class="projets__img">
+                        <a href="https://drive.google.com/drive/folders/1V2rlbZWLMDEp88CK8HD3xSKw223xk3vC?usp=sharing">
+                            <img src="assets/img/imgprojet/cpptableauptr.webp" alt="cpptableauptr">
+                        </a>
+                    </div>
+                    <div class="projets__img">
+                        <a href="https://drive.google.com/drive/folders/1z6NbdxXshSV8vnEOu1hYm0Bpt3fH11F0?usp=sharing">
+                            <img src="assets/img/imgprojet/cppclasse.webp" alt="cppclasse">
+                        </a>
+                    </div>
+                    <div class="projets__img">
+                        <a href="https://drive.google.com/drive/folders/1KaYzIGGh2ytGN8AERsFSuXcpaYwE1mcI?usp=sharing">
+                            <img src="assets/img/imgprojet/cpppoo.webp" alt="cpppoo">
+                        </a>
+                    </div>
+                    <div class="projets__img">
+                        <a href="https://drive.google.com/drive/folders/11XjpaboSTL256Y3GLUrHtp5GG3el_PYr?usp=sharing">
+                            <img src="assets/img/imgprojet/cppconstrudestru.webp" alt="cppconstrudestru">
+                        </a>
+                    </div>
+                    <div class="projets__img">
+                        <a href="https://docs.google.com/document/d/14tLXxmMMbAvAbhkcRKCg_OZstUWIiUgghUTfgYeHwCA/edit?usp=sharing">
+                            <img src="assets/img/imgprojet/cppnoteeleve.webp" alt="cppnoteeleve">
+                        </a>
+                    </div>
+                    <div class="projets__img">
+                        <a href="https://drive.google.com/drive/folders/16rrp8gyucqcDeAsJ4OwO2lIEe0oGQ2b4?usp=sharing">
+                            <img src="assets/img/imgprojet/qtdecouverte.webp" alt="qtdecouverte">
+                        </a>
+                    </div>
+                    <div class="projets__img">
+                        <a href="https://drive.google.com/drive/folders/1xP1XM0d812Yyrqo3ML2UmI-9HGrpcbc5?usp=sharing">
+                            <img src="assets/img/imgprojet/qtarith.webp" alt="qtarith">
+                        </a>
+                    </div>
+                    <div class="projets__img">
+                        <a href="https://drive.google.com/drive/folders/1mhQH8ung-E46Kp96TjMO9OLcLGPv0UhZ?usp=sharing">
+                            <img src="assets/img/imgprojet/qtsous.webp" alt="qtsous">
+                        </a>
+                    </div>
+                    <div class="projets__img">
+                        <a href="https://drive.google.com/drive/folders/1dkhHppXtb5EU1ChEfWqoD9M40hbiVojO?usp=sharing">
+                            <img src="assets/img/imgprojet/qtcomp.webp" alt="qtcomp">
+                        </a>
+                    </div>
+                    <div class="projets__img">
+                        <a href="https://drive.google.com/drive/folders/14Hv95Scw0hh3n8dq5ccdmtIWHtMAJmgQ?usp=sharing">
+                            <img src="assets/img/imgprojet/qtmulti.webp" alt="qtmulti">
+                        </a>
+                    </div>
+                    <div class="projets__img">
+                        <a href="https://drive.google.com/drive/folders/113qKcFtndJNzu3KghZXoOOgLDMwrfawn?usp=sharing">
+                            <img src="assets/img/imgprojet/qtmulti2.webp" alt="qtmulti2">
+                        </a>
+                    </div>
+                    <div class="projets__img">
+                        <a href="https://drive.google.com/drive/folders/1977zWNxxoMcnFIA8DAM1tltD5gM3CAbD?usp=sharing">
+                            <img src="assets/img/imgprojet/qtpiece.webp" alt="qtpiece">
+                        </a>
+                    </div>
+                    <div class="projets__img">
+                        <a href="https://drive.google.com/drive/folders/1lSKODngzaPKDz_bOsVU5ruOdgB4BX6_9?usp=sharing">
+                            <img src="assets/img/imgprojet/qtcontact.webp" alt="qtcontact">
+                        </a>
+                    </div>
+                    <div class="projets__img">
+                        <a href="https://drive.google.com/drive/folders/1WbCGTlto-lRnIGfgkNZmoBIbLteXNPcG?usp=sharing">
+                            <img src="assets/img/imgprojet/qtlivre.webp" alt="qtlivre">
+                        </a>
+                    </div>
+                    <div class="projets__img">
+                        <a href="https://drive.google.com/drive/folders/1BRr30v8vHUvezmeXTqtTh32QLe81ZlZ6?usp=sharing">
+                            <img src="assets/img/imgprojet/cppzoo.webp" alt="cppzoo">
+                        </a>
+                    </div>
+                    <div class="projets__img">
+                        <a href="https://drive.google.com/drive/folders/1fP0NqluRX4-IL-c9N2RMwfbsNdLwkakv?usp=sharing">
+                            <img src="assets/img/imgprojet/qtmultibase.webp" alt="qtmultibase">
+                        </a>
+                    </div>
+                    <div class="projets__img">
+                        <a href="https://drive.google.com/drive/folders/1EB8_OqbdoovAJqRzc-ZNgygSWDhCIhi5?usp=sharing">
+                            <img src="assets/img/imgprojet/qtmobile.webp" alt="qtmobile">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h2 class="projets__subtitle">SQL / base de données</h2>
+                <div class="projets__conteneur bd-grille">
+                    <div class="projets__img">
+                        <a href="https://docs.google.com/document/d/1bHlEHa95suHunSFN6D74LZm596iHmEkw-DUPd4SH5F0/edit?usp=sharing">
+                            <img src="assets/img/imgprojet/sqlzoo.webp" alt="sqlzoo">
+                        </a>
+                    </div>
+                    <div class="projets__img">
+                        <a href="https://docs.google.com/document/d/1L85jDqE2BkK9EyFZmjClrhAI-lzw1_DItjeRvAO7UNk/edit?usp=sharing">
+                            <img src="assets/img/imgprojet/sqlleclerc.webp" alt="sqlleclerc">
+                        </a>
+                    </div>
+                    <div class="projets__img">
+                        <a href="https://docs.google.com/document/d/14W92JLfCR0OASh7dvZRrjs8uyJNzaWBzyXVKZL2eXCQ/edit?usp=sharing">
+                            <img src="assets/img/imgprojet/sqlleclercsuite.webp" alt="sqlleclercsuite">
+                        </a>
+                    </div>
+                    <div class="projets__img">
+                        <a href="https://docs.google.com/document/d/191Hc_B9m2Ad6c77_jVPZg-ljy3aSnbTfB6OxywHbgKU/edit?usp=sharing">
+                            <img src="assets/img/imgprojet/sqlex.webp" alt="sqlex">
+                        </a>
+                    </div>
+                    <div class="projets__img">
+                        <a href="https://docs.google.com/document/d/1GNHuqgMIaaaXLS964T1bULMsZxq71eIssPskwQy5yqA/edit?usp=sharing">
+                            <img src="assets/img/imgprojet/sqlrappel.webp" alt="sqlrappel">
+                        </a>
+                    </div>
+                    <div class="projets__img">
+                        <a href="https://docs.google.com/document/d/1-BVZTOfHIZbSPxaP5tc2CNI4gvPsZb_qe9b7hA5JeJA/edit?usp=sharing">
+                            <img src="assets/img/imgprojet/sqlavion.webp" alt="sqlavion">
+                        </a>
+                    </div>
+                    <div class="projets__img">
+                        <a href="https://docs.google.com/document/d/10uk3eV3beqvOVbeFHG5ac5dn97No0-Y6L-KrUgSgkUM/edit?usp=sharing">
+                            <img src="assets/img/imgprojet/sqlfonction.webp" alt="sqlfonction">
+                        </a>
+                    </div>
+                    <div class="projets__img">
+                        <a href="https://docs.google.com/document/d/1eL1ZI9NBDxIgt91---nHZJCl9TVEaNjP505slzWygqM/edit?usp=sharing">
+                            <img src="assets/img/imgprojet/sqlite.webp" alt="sqlite">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h2 class="projets__subtitle">Cybersécurité</h2>
+                <div class="projets__conteneur bd-grille">
+                    <div class="projets__img">
+                        <a href="https://drive.google.com/drive/folders/16Kn6QlIO_f_mH1fgE6lyR-_nxNUldz7F?usp=sharing">
+                            <img src="assets/img/imgprojet/qtparefeu.webp" alt="qtparefeu">
+                        </a>
+                    </div>
+                    <div class="projets__img">
+                        <a href="https://docs.google.com/document/d/1gGqPBgiyTD5Ur0MbBucSpi8bUFoa3kdQjIc4Pzu2zzs/edit?usp=sharing">
+                            <img src="assets/img/imgprojet/webaudit.webp" alt="webaudit">
+                        </a>
+                    </div>
+                    <div class="projets__img">
+                        <a href="https://docs.google.com/document/d/1Ma8w_fYhJfNCwPXUrFBGZFQSm-GXyKlxoKQdQUhovjM/edit?usp=sharing">
+                            <img src="assets/img/imgprojet/webstat.webp" alt="webstat">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h2 class="projets__subtitle">Système D</h2>
+                <div class="projets__conteneur bd-grille">
+                    <div class="projets__img">
+                        <a href="https://docs.google.com/document/d/1YeyLEUXV_5MH-3wl_EK5ELxUk99NuVb9fYNpxHFhnkI/edit?usp=sharing">
+                            <img src="assets/img/imgprojet/qtide.webp" alt="qtide">
+                        </a>
+                    </div>
+                    <div class="projets__img">
+                        <a href="https://docs.google.com/document/d/1UCIPE34J9NZLtMFW4LUb9V8n6j7NpbltMVLfPBygTCE/edit?usp=sharing">
+                            <img src="assets/img/imgprojet/qtdeploiement.webp" alt="qtdeploiement">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--========== contact ==========-->
+    <section class="contact section" id="contact">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact__conteneur bd-grille">
+            <form name="formulaire" class="contact__formulaire" action="recupDonnees.php" method="post">
+                <input type="text" name="nom" placeholder="Nom" class="contact__input">
+                <input type="email" name="email" placeholder="Email" class="contact__input">
+                <textarea id="message" name="message" rows="10" class="contact__input"></textarea>
+                <input type="submit" value="Envoyer" name="submit" class="contact__bouton bouton">
+            </form>
+        </div>
+    </section>
+</main>
+<!--========== footer ==========-->
+<footer class="footer">
+    <p class="footer__title">Melvin</p>
+    <div class="footer__social">
+        <a href="https://www.facebook.com/melvin.vga/" class="footer__icone"><i class='bx bxl-facebook'></i></a>
+        <a href="https://www.instagram.com/melvin_vga/" class="footer__icone"><i class='bx bxl-instagram'></i></a>
+        <a href="https://twitter.com/melvin_vga" class="footer__icone"><i class='bx bxl-twitter'></i></a>
+    </div>
+    <p>&#169; Melvin Viougea. All right reserved</p>
+</footer>
+<!--========== scroll up ==========-->
+<a href="#" class="scrollup" id="scroll-up">
+    <i class="bx bx-up-arrow-alt scrollup__icone"></i>
+</a>
+<!--========== modal ==========-->
+<div class="modal__container" id="modal__container">
+    <div class="modal">
+        <button id="close" class="bouton__modal">x</button>
+        <img src="assets/img/cv.webp" alt="">
+    </div>
+</div>
+<!--========== scroll revel ==========-->
+<script src="https://unpkg.com/scrollreveal"></script>
+<!--========== main JS ==========-->
+<script src="assets/js/main.js"></script>
+</body>
+
+</html>
